@@ -9,20 +9,15 @@ Prerequisites:
 Functionalities:
 
     Add a New Student (POST /students):
-        Expects a JSON payload containing student details including id.
-        Adds the student to the students dictionary.
+        A JSON payload containing student details including id.
 
-    Get All Students (GET /students):
-        Returns a list of all student records.
+    Get All Students  (GET /students): Returns a list of all student records.
 
-    Get a Student with an ID (GET /students/<id>):
-        Retrieves a specific student by their id.
+    Get a Student with an ID (GET /students/<id>): Returns a specific student by their id.
 
-    Update Existing Student (PUT /students/<id>):
-        Updates details of an existing student.
+    Update Existing Student (PUT /students/<id>): Updates details of a student w.r.t the id.
 
-    Delete a Student Record (DELETE /students/<id>):
-        Removes a student record from the students dictionary.
+    Delete a Student Record (DELETE /students/<id>): Delete a student record from the students dictionary.
         
 Example Test Commands:
 
